@@ -31,7 +31,7 @@ class MyHome extends StatelessWidget {
         title: const Center(
           child: Text('Belajar Flutter'))),
       body: const Center(
-        child: Text('Halo Mahasiswa !')
+        child: Text('Rizal Hermawan - 2031710131', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)) // Ltihan 1 Ubah nama dan NIM
       ),
     );
   }
