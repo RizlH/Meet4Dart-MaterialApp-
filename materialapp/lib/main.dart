@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHome extends StatelessWidget {
-  const MyHome({super.key});
+class ProfilePage extends StatelessWidget {
+  const ProfilePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,4 +32,4 @@ class MyHome extends StatelessWidget {
       ),
     );
   }
-}
+} // Latihan 5 Buat Class yang bisa dibuka di home
