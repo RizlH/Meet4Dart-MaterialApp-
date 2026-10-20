@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Aplikasi Mahasiswa', // Latihan 1 Ubah title aplikasi
-      home: MyHome(),
+      home: ProfilePage(),
       theme: ThemeData.dark(useMaterial3: true), // Latihan 4 Ubah tema menjadi dark
     );
   }
