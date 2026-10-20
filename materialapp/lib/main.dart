@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Aplikasi Mahasiswa',// Latihan 1 Ubah title aplikasi
+      title: 'Aplikasi Mahasiswa', // Latihan 1 Ubah title aplikasi
       home: MyHome(),
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 184, 214, 15))
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 17, 0, 255)) // Latihan 2 Ganti seedColor
       ),
     );
   }
