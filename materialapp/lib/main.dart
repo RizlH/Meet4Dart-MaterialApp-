@@ -29,7 +29,7 @@ class MyHome extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Center(
-          child: Text('Belajar Flutter'))),
+          child: Text('Dasboard Mahasiswa'))), // Latihan 3 Ubah Judul appBar
       body: const Center(
         child: Text('Rizal Hermawan - 2031710131', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)) // Ltihan 1 Ubah nama dan NIM
       ),
