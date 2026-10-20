@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Belajar Flutter',
+      title: 'Aplikasi Mahasiswa',// Latihan 1 Ubah title aplikasi
       home: MyHome(),
       theme: ThemeData(
         useMaterial3: true,
